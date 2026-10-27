@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Dasallow: /admin/
+
+# Replace the reserved example hostname in sitemap.xml with the live domain before launch.
+Sitemap: https://bdmh.example/sitemap.xml

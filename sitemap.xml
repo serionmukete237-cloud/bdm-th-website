@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Replace https://bdmh.example with the live website hostname before launch. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>https://bdmh.example/</loc></url>
+    <url><loc>https://bdmh.example/services.html</loc></url>
+    <url><loc>https://bdmh.example/web-development.html</loc></url>
+    <url><loc>https://bdmh.example/seo.html</loc></url>
+    <url><loc>https://bdmh.example/paid-advertising.html</loc></url>
+    <url><loc>https://bdmh.example/portfolio.html</loc></url>
+    <url><loc>https://bdmh.example/academy.html</loc></url>
+    <url><loc>https://bdmh.example/about.html</loc></url>
+    <url><loc>https://bdmh.example/contact.html</loc></url>
+</urlset>

@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Contact BDM&TH about a business project or practical digital skills training.">
+        <meta name="theme-color" content="#0b1329">
+        <title>
+            Contact BDM&TH | Talk about your next step
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer>
+        </script>
+    </head>
+    <body>
+        <!-- The skip link lets keyboard users jump directly to the page content. -->
+        <a class="skip-link" href="#main">
+            Skip to content
+        </a>
+        <!-- The shared header contains the BDM&TH brand, main navigation, and quote button. -->
+        <header class="site-header">
+            <div class="header-inner">
+                <a class="brand" href="" aria-label="BDM&TH home">
+                    <img class="brand-logo" src="images/logo.svg.jpg" alt="">
+                    <span class="brand-name">BDM&TH<small>Buea Digital Marketing and Tech Hub</small></span>
+                </a>
+                <!-- This button opens and closes the main links on smaller screens. -->
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="primary-nav"
+                >
+                    <span></span><span></span>
+                </button>
+                <!-- These links connect the main pages and collapse into the mobile menu when needed. -->
+                <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+                    <a href="index.html">
+                        Home
+                    </a>
+                    <a href="services.html">
+                        Services
+                    </a>
+                    <a href="academy.html">
+                        Academy
+                    </a>
+                    <a href="portfolio.html">
+                        Portfolio
+                    </a>
+                    <a href="about.html">
+                        About
+                    </a>
+                    <a href="contact.html" aria-current="page">
+                        Contact
+                    </a>
+                </nav>
+                <a class="button button-small button-lime header-quote" href="#quote">
+                    Get a quote <span>↗</span>
+                </a>
+            </div>
+        </header>
+        <!-- Main page content: the sections below explain this page and its next steps. -->
+        <main id="main">
+            <!-- This section explains how to contact BDM&TH and contains the project enquiry form. -->
+            <section class="contact-intro section-wrap">
+                <div>
+                    <p class="eyebrow">
+                        <span class="eyebrow-dot"></span>Get in touch
+                    </p>
+                    <h1>
+                        Let’s talk about<br><span>your next step.</span>
+                    </h1>
+                    <p class="page-intro">
+                        Tell us what you’re working toward. Whether it’s a business project or a training question, we’ll help you figure out where to start.
+                    </p>
+                    <div class="contact-direct">
+                        <div>
+                            <b>Prefer WhatsApp?</b>
+                            <a
+                                href="https://wa.me/237693697097?text=Hello%20BDM&TH%2C%20I%27d%20like%20to%20discuss%20my%20next%20step."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="Contact BDM&TH on WhatsApp at +237 693 697 097"
+                            >
+                                <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                    <path d="M20.1 11.5a8.1 8.1 0 0 1-11.9 7.1L4 20l1.4-4A8.1 8.1 0 1 1 20.1 11.5Z"></path>
+                                    <path d="M8.4 7.9c.2-.5.5-.7.9-.7h.6c.2 0 .4.2.5.5l.8 1.8c.1.3 0 .5-.2.7l-.7.8c.6 1.2 1.6 2.2 2.8 2.8l.8-.7c.2-.2.5-.3.7-.2l1.8.8c.3.1.5.3.5.5v.6c0 .4-.3.7-.7.9-1.2.5-3.4-.4-5.5-2.5S7.9 9.1 8.4 7.9Z"></path>
+                                </svg>
+                                <span>+237 693 697 097</span>
+                                <span aria-hidden="true">↗</span>
+                            </a>
+                        </div>
+                    </div>
+                    <p class="contact-location">
+                        BASED IN BUEA, CAMEROON <span>·</span> WORKING WITH AMBITIOUS PEOPLE
+                    </p>
+                </div>
+                <!-- The form prepares an email draft for the visitor to send to BDM&TH. -->
+                <form class="enquiry-form" id="quote" data-email-form>
+                    <div class="form-heading">
+                        <span class="form-kicker">START A CONVERSATION</span>
+                        <h2>
+                            What can we help with?
+                        </h2>
+                        <p>
+                            Share a few details and continue your enquiry in your email app.
+                        </p>
+                    </div>
+                    <label for="name">
+                        Your name <span>*</span>
+                    </label>
+                    <input id="name" name="name" type="text" autocomplete="name" placeholder="e.g. Alex N." required>
+                    <label for="business">
+                        Business or organization <small>Optional</small>
+                    </label>
+                    <input
+                        id="business"
+                        name="business"
+                        type="text"
+                        autocomplete="organization"
+                        placeholder="Your business name"
+                    >
+                    <div class="form-row">
+                        <div>
+                            <label for="email">
+                                Email <small>At least one contact required</small>
+                            </label>
+                            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com">
+                        </div>
+                        <div>
+                            <label for="phone">
+                                Phone <small>Optional</small>
+                            </label>
+                            <div class="phone-input-group">
+                                <input id="phone" name="phone" type="tel" autocomplete="tel-national" placeholder="Your phone number">
+                            </div>
+                        </div>
+                    </div>
+                    <label for="country">
+                        Country <small>Optional</small>
+                    </label>
+                    <select id="country" name="country" autocomplete="country-name">
+                        <option value="">
+                            Select your country
+                        </option>
+                        <option>Afghanistan</option>
+                        <option>Albania</option>
+                        <option>Algeria</option>
+                        <option>Andorra</option>
+                        <option>Angola</option>
+                        <option>Antigua and Barbuda</option>
+                        <option>Argentina</option>
+                        <option>Armenia</option>
+                        <option>Australia</option>
+                        <option>Austria</option>
+                        <option>Azerbaijan</option>
+                        <option>Bahamas</option>
+                        <option>Bahrain</option>
+                        <option>Bangladesh</option>
+                        <option>Barbados</option>
+                        <option>Belarus</option>
+                        <option>Belgium</option>
+                        <option>Belize</option>
+                        <option>Benin</option>
+                        <option>Bhutan</option>
+                        <option>Bolivia</option>
+                        <option>Bosnia and Herzegovina</option>
+                        <option>Botswana</option>
+                        <option>Brazil</option>
+                        <option>Brunei</option>
+                        <option>Bulgaria</option>
+                        <option>Burkina Faso</option>
+                        <option>Burundi</option>
+                        <option>Cabo Verde</option>
+                        <option>Cambodia</option>
+                        <option>Cameroon</option>
+                        <option>Canada</option>
+                        <option>Central African Republic</option>
+                        <option>Chad</option>
+                        <option>Chile</option>
+                        <option>China</option>
+                        <option>Colombia</option>
+                        <option>Comoros</option>
+                        <option>Congo</option>
+                        <option>Costa Rica</option>
+                        <option>Côte d’Ivoire</option>
+                        <option>Croatia</option>
+                        <option>Cuba</option>
+                        <option>Cyprus</option>
+                        <option>Czechia</option>
+                        <option>Democratic Republic of the Congo</option>
+                        <option>Denmark</option>
+                        <option>Djibouti</option>
+                        <option>Dominica</option>
+                        <option>Dominican Republic</option>
+                        <option>Ecuador</option>
+                        <option>Egypt</option>
+                        <option>El Salvador</option>
+                        <option>Equatorial Guinea</option>
+                        <option>Eritrea</option>
+                        <option>Estonia</option>
+                        <option>Eswatini</option>
+                        <option>Ethiopia</option>
+                        <option>Fiji</option>
+                        <option>Finland</option>
+                        <option>France</option>
+                        <option>Gabon</option>
+                        <option>Gambia</option>
+                        <option>Georgia</option>
+                        <option>Germany</option>
+                        <option>Ghana</option>
+                        <option>Greece</option>
+                        <option>Grenada</option>
+                        <option>Guatemala</option>
+                        <option>Guinea</option>
+                        <option>Guinea-Bissau</option>
+                        <option>Guyana</option>
+                        <option>Haiti</option>
+                        <option>Honduras</option>
+                        <option>Hungary</option>
+                        <option>Iceland</option>
+                        <option>India</option>
+                        <option>Indonesia</option>
+                        <option>Iran</option>
+                        <option>Iraq</option>
+                        <option>Ireland</option>
+                        <option>Israel</option>
+                        <option>Italy</option>
+                        <option>Jamaica</option>
+                        <option>Japan</option>
+                        <option>Jordan</option>
+                        <option>Kazakhstan</option>
+                        <option>Kenya</option>
+                        <option>Kiribati</option>
+                        <option>Kuwait</option>
+                        <option>Kyrgyzstan</option>
+                        <option>Laos</option>
+                        <option>Latvia</option>
+                        <option>Lebanon</option>
+                        <option>Lesotho</option>
+                        <option>Liberia</option>
+                        <option>Libya</option>
+                        <option>Liechtenstein</option>
+                        <option>Lithuania</option>
+                        <option>Luxembourg</option>
+                        <option>Madagascar</option>
+                        <option>Malawi</option>
+                        <option>Malaysia</option>
+                        <option>Maldives</option>
+                        <option>Mali</option>
+                        <option>Malta</option>
+                        <option>Marshall Islands</option>
+                        <option>Mauritania</option>
+                        <option>Mauritius</option>
+                        <option>Mexico</option>
+                        <option>Micronesia</option>
+                        <option>Moldova</option>
+                        <option>Monaco</option>
+                        <option>Mongolia</option>
+                        <option>Montenegro</option>
+                        <option>Morocco</option>
+                        <option>Mozambique</option>
+                        <option>Myanmar</option>
+                        <option>Namibia</option>
+                        <option>Nauru</option>
+                        <option>Nepal</option>
+                        <option>Netherlands</option>
+                        <option>New Zealand</option>
+                        <option>Nicaragua</option>
+                        <option>Niger</option>
+                        <option>Nigeria</option>
+                        <option>North Korea</option>
+                        <option>North Macedonia</option>
+                        <option>Norway</option>
+                        <option>Oman</option>
+                        <option>Pakistan</option>
+                        <option>Palau</option>
+                        <option>Palestine</option>
+                        <option>Panama</option>
+                        <option>Papua New Guinea</option>
+                        <option>Paraguay</option>
+                        <option>Peru</option>
+                        <option>Philippines</option>
+                        <option>Poland</option>
+                        <option>Portugal</option>
+                        <option>Qatar</option>
+                        <option>Romania</option>
+                        <option>Russia</option>
+                        <option>Rwanda</option>
+                        <option>Saint Kitts and Nevis</option>
+                        <option>Saint Lucia</option>
+                        <option>Saint Vincent and the Grenadines</option>
+                        <option>Samoa</option>
+                        <option>San Marino</option>
+                        <option>Sao Tome and Principe</option>
+                        <option>Saudi Arabia</option>
+                        <option>Senegal</option>
+                        <option>Serbia</option>
+                        <option>Seychelles</option>
+                        <option>Sierra Leone</option>
+                        <option>Singapore</option>
+                        <option>Slovakia</option>
+                        <option>Slovenia</option>
+                        <option>Solomon Islands</option>
+                        <option>Somalia</option>
+                        <option>South Africa</option>
+                        <option>South Korea</option>
+                        <option>South Sudan</option>
+                        <option>Spain</option>
+                        <option>Sri Lanka</option>
+                        <option>Sudan</option>
+                        <option>Suriname</option>
+                        <option>Sweden</option>
+                        <option>Switzerland</option>
+                        <option>Syria</option>
+                        <option>Taiwan</option>
+                        <option>Tajikistan</option>
+                        <option>Tanzania</option>
+                        <option>Thailand</option>
+                        <option>Timor-Leste</option>
+                        <option>Togo</option>
+                        <option>Tonga</option>
+                        <option>Trinidad and Tobago</option>
+                        <option>Tunisia</option>
+                        <option>Türkiye</option>
+                        <option>Turkmenistan</option>
+                        <option>Tuvalu</option>
+                        <option>Uganda</option>
+                        <option>Ukraine</option>
+                        <option>United Arab Emirates</option>
+                        <option>United Kingdom</option>
+                        <option>United States</option>
+                        <option>Uruguay</option>
+                        <option>Uzbekistan</option>
+                        <option>Vanuatu</option>
+                        <option>Vatican City</option>
+                        <option>Venezuela</option>
+                        <option>Vietnam</option>
+                        <option>Yemen</option>
+                        <option>Zambia</option>
+                        <option>Zimbabwe</option>
+                    </select>
+                    <label for="interest">
+                        I’m interested in <span>*</span>
+                    </label>
+                    <select id="interest" name="interest" required>
+                        <option value="">
+                            Choose an option
+                        </option>
+                        <option value="Website development">
+                            Website development
+                        </option>
+                        <option value="SEO and search visibility">
+                            SEO and search visibility
+                        </option>
+                        <option value="Paid advertising">
+                            Paid advertising
+                        </option>
+                        <option value="BDM&TH Academy training">
+                            BDM&TH Academy training
+                        </option>
+                        <option value="Something else">
+                            Something else
+                        </option>
+                    </select>
+                    <label for="budget">
+                        Estimated budget <small>Optional</small>
+                    </label>
+                    <select id="budget" name="budget">
+                        <option value="">
+                            Prefer to discuss
+                        </option>
+                        <option>
+                            Under 100,000 XAF
+                        </option>
+                        <option>
+                            100,000–300,000 XAF
+                        </option>
+                        <option>
+                            300,000–750,000 XAF
+                        </option>
+                        <option>
+                            750,000+ XAF
+                        </option>
+                    </select>
+                    <label for="message">
+                        A little about what you need <span>*</span>
+                    </label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        placeholder="What are you hoping to achieve?"
+                        required
+                    ></textarea>
+                    <button class="button button-lime form-submit" type="submit">
+                        <svg class="email-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                            <path d="m4 7 8 6 8-6"></path>
+                        </svg>
+                        Open email draft
+                        <span aria-hidden="true">↗</span>
+                    </button>
+                    <p class="form-disclaimer">
+                        This form does not send or store your details on this website. It opens a prefilled email to serionmukete237@gmail.com for you to review and send.
+                    </p>
+                    <p class="form-status" role="status" aria-live="polite">
+                    </p>
+                </form>
+            </section>
+            <!-- This section offers useful destinations for visitors who are not ready to enquire. -->
+            <section class="contact-next">
+                <div class="section-wrap contact-next-inner">
+                    <div>
+                        <p class="eyebrow eyebrow-light">
+                            Not ready to reach out?
+                        </p>
+                        <h2>
+                            Take a look around<br><span>and find your fit.</span>
+                        </h2>
+                    </div>
+                <div class="split-cta-actions">
+                    <a class="button button-outline" href="services.html">
+                        Explore services <span>↗</span>
+                    </a>
+                    <a class="button button-outline" href="academy.html">
+                        Explore training <span>↗</span>
+                    </a>
+                </div>
+                </div>
+            </section>
+        </main>
+        <!-- The shared footer repeats key links and BDM&TH contact details on every page. -->
+        <footer class="site-footer">
+            <div class="section-wrap footer-main">
+                <div class="footer-brand">
+                    <a class="brand" href="">
+                        <img class="brand-logo" src="images/logo.svg.jpg" alt="">
+                        <span class="brand-name">BDM&TH<small>Buea Digital Marketing and Tech Hub</small></span>
+                    </a>
+                    <p>
+                        Digital solutions for businesses.<br>Practical skills for people.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <div>
+                        <b>Explore</b>
+                        <a href="services.html">Services</a>
+                        <a href="academy.html">Academy</a>
+                        <a href="portfolio.html">Portfolio</a>
+                    </div>
+                    <div>
+                        <b>BDM&TH</b>
+                        <a href="about.html">About us</a>
+                        <a href="contact.html">Contact</a>
+                        <a href="#quote">Get a quote</a>
+                    </div>
+                    <div>
+                        <b>Get in touch</b>
+                        <a href="https://wa.me/237693697097" target="_blank" rel="noopener noreferrer">
+                            <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                                <path d="M20.1 11.5a8.1 8.1 0 0 1-11.9 7.1L4 20l1.4-4A8.1 8.1 0 1 1 20.1 11.5Z"></path>
+                                <path d="M8.4 7.9c.2-.5.5-.7.9-.7h.6c.2 0 .4.2.5.5l.8 1.8c.1.3 0 .5-.2.7l-.7.8c.6 1.2 1.6 2.2 2.8 2.8l.8-.7c.2-.2.5-.3.7-.2l1.8.8c.3.1.5.3.5.5v.6c0 .4-.3.7-.7.9-1.2.5-3.4-.4-5.5-2.5S7.9 9.1 8.4 7.9Z"></path>
+                            </svg>
+                            <span>WhatsApp: +237 693 697 097</span>
+                        </a>
+                        <span>Buea, Cameroon</span>
+                    </div>
+                </div>
+            </div>
+            <div class="section-wrap footer-bottom">
+                <span>© <span data-year>2026</span> BDM&TH. Built for what’s next.</span>
+                <span>Grow with purpose <b>✳</b></span>
+            </div>
+        </footer>
+        <!-- This floating button opens WhatsApp with a page-specific message. -->
+        <a
+            class="whatsapp-float"
+            href="https://wa.me/237693697097?text=Hello%20BDM&TH%2C%20I%27d%20like%20to%20discuss%20my%20next%20step."
+            data-whatsapp-message="Hello BDM&TH, I'd like to discuss my next step."
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Chat with BDM&TH on WhatsApp"
+        >
+            <svg class="whatsapp-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M20.1 11.5a8.1 8.1 0 0 1-11.9 7.1L4 20l1.4-4A8.1 8.1 0 1 1 20.1 11.5Z"></path>
+                <path d="M8.4 7.9c.2-.5.5-.7.9-.7h.6c.2 0 .4.2.5.5l.8 1.8c.1.3 0 .5-.2.7l-.7.8c.6 1.2 1.6 2.2 2.8 2.8l.8-.7c.2-.2.5-.3.7-.2l1.8.8c.3.1.5.3.5.5v.6c0 .4-.3.7-.7.9-1.2.5-3.4-.4-5.5-2.5S7.9 9.1 8.4 7.9Z"></path>
+            </svg>
+            <span class="whatsapp-label">Let’s talk</span>
+        </a>
+    </body>
+</html>
